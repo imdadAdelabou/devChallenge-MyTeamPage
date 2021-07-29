@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    padding: 30px 260px 24px 240px;
+}
+
+.item img {
+    max-width: 218px;
+    max-height: 410px;
+}
+
+#headTitle {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#headTitle h3 {
+    font-size: 36px;
+    font-family: "PT Serif";
+    font-weight: 700;
+    letter-spacing: -4.5%;
+    line-height: 48px;
+    margin-right: 210px;
+}
+
+#headTitle #content h5 {
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 27px;
+    margin: 30px 0 5px 0;
+}
+
+#headTitle p {
+    font-family: "Poppins";
+    font-weight: 400;
+    margin: 0;
+    line-height: 27px;
+    font-size: 15px;
+}
+
+.photosTeam.container {
+    display: grid;
+    height: 100vh;
+    gap: 55px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.photosTeam .person1 {
+    grid-row: 1;
+}
+
+.photosTeam .person2 {
+    grid-row: 1;
+}
+
+.photosTeam .person3 {
+    grid-row: 1;
+}
+
+.photosTeam .person4 {
+    grid-row: 2;
+}
+
+.photosTeam .person5 {
+    grid-row: 2;
+}
+
+.photosTeam .person6 {
+    grid-row: 2;
+}
+
+.photosTeam h5 {
+    font-family: "PT Serif";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 0 0 10px;
+    writing-mode: vertical-rl;
+    position: relative;
+    top: 105px;
+    left: 210px;
+}
+
+.photosTeam h4 {
+    margin: 10px 0 0 0;
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 27px;
+}
+
+footer {
+    display: flex;
+}
+
+footer p {
+    margin: 0 auto;
+    color: #A9A9A9;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Montserrat";
+}
