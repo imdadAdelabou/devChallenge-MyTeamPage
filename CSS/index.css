@@ -42,8 +42,11 @@ body {
 .photosTeam.container {
     display: grid;
     height: 100vh;
-    gap: 55px;
-    grid-template-columns: repeat(12, 1fr);
+    /* gap: 55px; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto auto auto auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .photosTeam .person1 {
@@ -51,11 +54,13 @@ body {
 }
 
 .photosTeam .person2 {
+    padding-top: 150px;
     grid-row: 1;
 }
 
 .photosTeam .person3 {
     grid-row: 1;
+    grid-column-start: 3;
 }
 
 .photosTeam .person4 {
@@ -63,6 +68,7 @@ body {
 }
 
 .photosTeam .person5 {
+    padding-top: 150px;
     grid-row: 2;
 }
 
@@ -89,14 +95,87 @@ body {
     line-height: 27px;
 }
 
-footer {
-    display: flex;
-}
-
-footer p {
+.photosTeam p {
     margin: 0 auto;
     color: #A9A9A9;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 3vw;
     font-family: "Montserrat";
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 30px 80px 24px 12px;
+    }
+    #headTitle {
+        display: block;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    #headTitle h3 {
+        margin: 0;
+        font-size: 8vw;
+    }
+    #headTitle #content h5 {
+        margin: 15px 0 0 0;
+    }
+    #headTitle #content p {
+        font-size: 3vw;
+    }
+    .item img {
+        max-width: 138px;
+        max-height: 261px;
+    }
+    .photosTeam h5 {
+        font-size: 8px;
+        top: 0;
+        left: 0;
+    }
+    .photosTeam .person1 h5 {
+        top: 50px;
+    }
+    .photosTeam.container {
+        display: grid;
+        gap: 21px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .photosTeam .person1 {
+        grid-column-start: 1;
+        grid-row: 1;
+        align-self: flex-start;
+    }
+    .photosTeam .person2 {
+        padding-top: 50px;
+        grid-row: 1;
+        grid-column-start: 2;
+        align-self: flex-start;
+    }
+    .photosTeam .person3 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .photosTeam .person4 {
+        padding-top: 80px;
+        grid-row: 2;
+    }
+    .photosTeam .person5 {
+        grid-column-start: 1;
+        grid-row: 3;
+        padding: 0;
+    }
+    .photosTeam .person6 {
+        padding-top: 80px;
+        grid-row: 3;
+    }
+    .photosTeam .fter {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+        background-color: violet;
+    }
 }
