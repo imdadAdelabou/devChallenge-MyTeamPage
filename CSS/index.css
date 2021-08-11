@@ -89,8 +89,19 @@ body {
     margin: 0 0 0 10px;
     writing-mode: vertical-rl;
     position: relative;
-    top: 105px;
     left: 210px;
+}
+
+.photosTeam .person1 h5 {
+    top: 100px;
+}
+
+.photosTeam .person2 h5 {
+    top: 64px;
+}
+
+.photosTeam .person3 h5 {
+    top: 53px;
 }
 
 .photosTeam h4 {
