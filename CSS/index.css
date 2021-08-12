@@ -219,8 +219,37 @@ body {
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 1010px) {
     body {
-        background-color: violet;
+        padding: 10px 50px 0 50px;
+    }
+    #headTitle h3 {
+        margin: 0;
+        font-size: 4vw;
+    }
+    #headTitle #content {
+        margin-left: 60px;
+    }
+    #headTitle #content p {
+        font-size: 2vw;
+    }
+    #headTitle #content h5 {
+        margin: 10px 0 0 0;
+    }
+    .item img {
+        max-height: 200px;
+    }
+    .photosTeam.container {
+        gap: 22px;
+    }
+    .photosTeam .person4 {
+        align-self: flex-start;
+    }
+    .photosTeam .person5 {
+        padding-top: 70px;
+        align-self: flex-start;
+    }
+    .photosTeam h5 {
+        left: 130px;
     }
 }
