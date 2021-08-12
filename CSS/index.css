@@ -134,7 +134,7 @@ body {
 
 @media screen and (max-width: 480px) {
     body {
-        padding: 30px 80px 24px 12px;
+        padding: 30px 100px 24px 2px;
     }
     #headTitle {
         display: block;
@@ -157,11 +157,25 @@ body {
     }
     .photosTeam h5 {
         font-size: 8px;
-        top: 0;
-        left: 0;
+        left: 128px;
     }
     .photosTeam .person1 h5 {
-        top: 50px;
+        top: 68px;
+    }
+    .photosTeam .person2 h5 {
+        top: 42px;
+    }
+    .photosTeam .person3 h5 {
+        top: 36px;
+    }
+    .photosTeam .person4 h5 {
+        top: 44px;
+    }
+    .photosTeam .person5 h5 {
+        top: 36px;
+    }
+    .photosTeam .person6 h5 {
+        top: 36px;
     }
     .photosTeam.container {
         display: grid;
